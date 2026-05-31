@@ -1,6 +1,6 @@
 # Contributor Leaderboard 🏆
 
-Thanks to everyone who has contributed to AI Codebase Navigator!
+Thanks to everyone who has contributed to AI Interview Prep Platform!
 
 | Rank | Contributor | PRs Merged | Area |
 |------|-------------|------------|------|
@@ -8,7 +8,7 @@ Thanks to everyone who has contributed to AI Codebase Navigator!
 | 🥈 2 | — | — | — |
 | 🥉 3 | — | — | — |
 
-*This table is updated manually after each merged PR. Open a PR and get your name here!*
+*Updated after each merged PR. Open a PR and get your name here!*
 
 ---
 
@@ -20,4 +20,4 @@ Thanks to everyone who has contributed to AI Codebase Navigator!
 
 ---
 
-*Want to see your name here? Check out the [good first issues](https://github.com/chiragarya67/AI-Codebase-Navigator/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and open your first PR!*
+*Want to see your name here? Check out the [good first issues](https://github.com/chiragarya67/AI-Interview-Prep/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and open your first PR!*

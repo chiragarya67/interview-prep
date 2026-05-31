@@ -19,7 +19,7 @@ Fixes #(issue number)
 
 - [ ] App runs without errors after my change
 - [ ] No new console errors or warnings
-- [ ] I tested this on my local machine
+- [ ] I tested this locally (both server and client)
 - [ ] Code is readable and commented where needed
 
 ## Screenshots (if UI change)

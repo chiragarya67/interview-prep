@@ -25,7 +25,7 @@ Be respectful. Be helpful. Don't be a jerk.
 
 ## Reporting Issues
 
-If someone is violating this code of conduct, reach out via GitHub Discussions or open a private issue. We'll handle it.
+If someone is violating this code of conduct, open a private issue or reach out via GitHub Discussions.
 
 ---
 

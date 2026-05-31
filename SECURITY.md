@@ -19,6 +19,7 @@ We'll acknowledge within 48 hours and work on a fix.
 - Authentication bypass
 - Exposed environment variables or secrets
 - API endpoints returning data they shouldn't
+- JWT token vulnerabilities
 - XSS or injection vulnerabilities
 
 ## What doesn't need private reporting?

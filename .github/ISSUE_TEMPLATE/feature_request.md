@@ -8,7 +8,7 @@ labels: enhancement
 A clear description of what you want to add.
 
 **Why is this useful?**
-Explain how this helps users of the app.
+Explain how this helps users preparing for interviews.
 
 **Any implementation ideas?**
 Optional — if you already know how to build it, share your approach.

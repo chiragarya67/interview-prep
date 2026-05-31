@@ -1,4 +1,4 @@
-# Contributing to AI Codebase Navigator
+# Contributing to AI Interview Prep Platform
 
 Thanks for wanting to contribute! This guide will get you from zero to your first PR.
 
@@ -6,7 +6,7 @@ Thanks for wanting to contribute! This guide will get you from zero to your firs
 
 ## Before You Start
 
-- Check the [open issues](https://github.com/chiragarya67/AI-Codebase-Navigator/issues) for something to work on
+- Check the [open issues](https://github.com/chiragarya67/AI-Interview-Prep/issues) for something to work on
 - Comment on the issue — *"I'd like to work on this"* — so we can assign it to you
 - Don't open a PR for an issue nobody assigned you — two people might do the same work
 
@@ -16,14 +16,14 @@ Thanks for wanting to contribute! This guide will get you from zero to your firs
 
 ```bash
 # Fork the repo first, then:
-git clone https://github.com/YOUR_USERNAME/AI-Codebase-Navigator.git
-cd AI-Codebase-Navigator
+git clone https://github.com/YOUR_USERNAME/AI-Interview-Prep.git
+cd AI-Interview-Prep
 
 # Server
 cd server
 npm install
 cp .env.example .env
-# Fill in your keys
+# Fill in your keys in .env
 npm run dev
 
 # Client (new terminal)
@@ -32,7 +32,24 @@ npm install
 npm run dev
 ```
 
-App runs at `http://localhost:5173`
+App runs at `http://localhost:5173`, API at `http://localhost:5000`
+
+---
+
+## Environment Variables
+
+**server/.env** — copy from `server/.env.example`
+```
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/interviewprep
+JWT_SECRET=any_random_secret
+GEMINI_API_KEY=get_free_key_from_aistudio.google.com
+```
+
+**client/.env** — copy from `client/.env.example`
+```
+VITE_API_BASE_URL=http://localhost:5000/api
+```
 
 ---
 
@@ -69,11 +86,11 @@ We'll review within a few days and either merge or leave feedback.
 - Keep it simple and readable
 - Add a comment if something is non-obvious
 - Don't install new packages without discussing in the issue first
-- Frontend: Tailwind CSS only, no new CSS files
-- Backend: follow the existing controller/route/model pattern
+- Frontend: Tailwind CSS only, no extra CSS files
+- Backend: follow the existing controller → route → model pattern
 
 ---
 
 ## Need Help?
 
-Open a [Discussion](https://github.com/chiragarya67/AI-Codebase-Navigator/discussions) or comment on the issue. We're friendly here.
+Comment on the issue you're working on. We're friendly here — no question is too basic.

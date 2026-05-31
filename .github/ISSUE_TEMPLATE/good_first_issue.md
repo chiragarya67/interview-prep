@@ -8,8 +8,8 @@ labels: good first issue, help wanted
 Clear description of the task.
 
 **Which file(s) to edit?**
-- `client/src/...`
-- `server/...`
+- `client/src/pages/...`
+- `server/controllers/...`
 
 **Acceptance criteria**
 - [ ] What does "done" look like?
